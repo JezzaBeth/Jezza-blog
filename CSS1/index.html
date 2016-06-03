@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>preworkCSS1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	
+	<div class="column1of2">
+		<a href="http://facebook.com/Jezzabeth" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNMuZ2dlERK6XVnEBkgsbioYSHM8-FHwjky3wJlri7tGXApS7bw"></a>
+
+		<a href="https://twitter.com/theJezzaBeth" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1PPBGNJLYfREsFi91cC8RTr6DX2tzuD_LiKQcC40UbeMdiL3s"></a>
+	</div>
+	<div class="column2of2">
+		<h1>April 30, 2016</h1>
+		<h2>Saturday</h2>
+			<p>Well here I am this Saturday morning at 9:25, having already been up for hours. I am now fairly well caffeinated and decided to tackle this next pre-work assignment for my coding class that starts in July. I had tried to sign up to go to bar class this morning (as in ballet, not martini) instead but the class was full, so I signed up for the 2 o'clock and had cake and coffee for breakfast. What. It's Saturday.</p>
+			<p>So, the second assignment for NYCDA is to do some basic CSS layout pages. All three ask for column style layouts but don't specify subject material. This very page you are reading is the first example. It is to have two columns, one being a fixed "social media bar" on the left side of the page that links you to my Facebook and Twitter pages, the other being the text area. </p>
+			<p>First things first, I made my HTML page with the basic layout structure, created a CSS page, and linked the two. I put a heading inside the body tags of my html and added two div classes: column1of2 and column2of2. I added some text inside some "p" tags and hit save. Always Save.</p>
+			<p>Next I went to the CSS page and specified a layout using the names I created for my columns, like so: .column1of2 is set to have a "float" left, a width of 300px, and a margin (the space between the columns) of 10px, while .column2of2 is set to have a "float" left, a width of 650px, and a margin of 10px. And hit save. Always Save. Then I decided to change the font a bit so I added a body element to my CSS page and gave it a font style of Verdana, sans-serif and a font size of 18px. I also moved my heading tags because they had been above my div tags and so the heading was showing up in the top left hand corner of the page. I moved the tags to inside the column2of2 div and my heading is now above the rest of the text as I wanted. Then I hit save. Always Save.</p>
+			<p>I should add at this time that I have added a wrapper to my CSS page with some pretty typical specifications. I don't really see what difference it made, but I remembered that you're "supposed" to do that. At this point I have to just follow instructions sometimes. I also played around a bit with the size of my columns so that the page would look more appealing. I was having trouble because when I tried setting the social nav buttons to a fixed position, the page was showing up with the text behind the buttons for some reason. I'm not sure if I did the right thing, but I just changed the float of my column2of2 to right instead of left and that seems to have fixed the issue. Correct or not, I guess it works. More than one way to skin a cat, right? (Please do not skin cats.)</p>
+			<p>To get my social media buttons up and running I added two links to my html page inside my column1of2 div. One was a link to my Facebook page and the other to my Twitter page. Inside of each of those links, AFTER the link address, I added an img tag containing the image address for whichever corresponding social media icon I needed. Then I saved. Always Save. *Here's a tip: if you add target="_blank" just after the link address inside your link tag, the page you are pointing to will open in a new window. Cool, right? Yes, it is. It's very cool.</p>
+	</div>
+</body>
+</html>
